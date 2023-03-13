@@ -1,0 +1,285 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 70.4%;
+  }
+  section {
+    padding: 2rem 6%;
+    /* overflow: hidden; */
+  }
+  /* .heading span {
+    background-color: orange;
+  } */
+
+  footer .content .box {
+    width: 50%;
+  }
+  .content .right {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-card2 h1 {
+    font-size: 2.5rem;
+    /* background: red; */
+  }
+  header {
+    padding: 2rem;
+  }
+  /* .heading span {
+    background-color: crimson;
+  } */
+
+  .process .p-contain .p-card .content h1 {
+    margin: 6rem 0 2rem;
+  }
+  .reveiw .box {
+    padding: 2rem;
+    width: 900;
+
+    height: 270px;
+  }
+
+  .packagi .pack .pack-card {
+    /* height: 550px; */
+    margin-bottom: 2rem;
+  }
+
+  .foot-col{
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --h1-font: 3rem;
+  }
+  .toggleBar .bi {
+    display: initial;
+    transform: scale(1.5);
+  }
+
+  .Btn {
+    display: none;
+  }
+
+  .Btn-1 {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--color-1);
+    color: #fff;
+    padding: 0.8rem 3rem;
+    border: 0.2rem solid var(--color-1);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Btn-1:hover {
+    background: transparent;
+    color: var(--color-1);
+  }
+  header .navbar {
+    position: absolute;
+    left: 0;
+    top: -600px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 4px rgb(0, 0, 0/100%);
+    background-color: #000;
+    transition: all 0.6s ease-in-out;
+  }
+  .navbar.active {
+    top: 100%;
+  }
+  .navbar a {
+    padding: 1.5rem;
+    display: block;
+  }
+
+  header .logo {
+    font-size: x-large;
+  }
+  .heading span {
+    font-size: 1.5rem;
+  }
+
+  .home .content h3 {
+    font-size: 2.5rem;
+  }
+  .home .content p {
+    font-size: 1.7rem;
+  }
+  .sub-home .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .content-card1 {
+    order: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-card1 h3 {
+   font-size: 1.3rem;
+  }
+
+  .content-card1 p {
+    font-size: 1.2rem;
+  }
+
+  .content-card2 p {
+    font-size: 1.1rem;
+  }
+
+  .content-card2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .content-card2 h1 {
+    font-size: var(--h1-font);
+    /* background: green; */
+  }
+  .container img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* .heading span {
+    background-color: yellow;
+  } */
+
+  .bst-p {
+    flex-direction: column;
+  }
+
+  .best h1 {
+    font-size: 2.3rem;
+  }
+
+  .layer-2 {
+    width: 20%;
+  }
+
+  .col:hover .layer-2 {
+    width: 25%;
+  }
+  .col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .packagi .pack .pack-card {
+    height: 535px;
+    gap: 2rem;
+  }
+  .packagi .pack .pack-card img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+
+  .packagi-home h1 {
+    font-size: 4rem;
+    padding: 25rem 0;
+    color: var(--color-1);
+  }
+
+  .book-home h1 {
+    font-size: 5rem;
+    padding: 25rem 0;
+  }
+
+  .packagi .pack .pack-card .content p {
+    font-size: 1.3rem;
+  }
+  .process .pro {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 5rem;
+    color: var(--color-1);
+  }
+
+  .process .p-contain .p-card .content {
+    text-align: center;
+  }
+
+  .process .p-contain .p-card .content h1 {
+    margin: 6rem 0 2rem;
+    font-size: 2rem;
+  }
+
+  .process .p-contain .p-card .content p {
+    font-size: 1.3rem;
+  }
+
+  .savis-card {
+    height: 230px;
+    width: 900px;
+  }
+
+  .service .s-contain .savis-card .content h1 {
+    font-size: 2rem;
+  }
+
+  .service .s-contain .savis-card .content p {
+    font-size: 1.3rem;
+  }
+
+  .reveiw .box {
+    padding: 2rem;
+    width: 900;
+    height: 260px;
+  }
+  .reveiw .box p {
+    font-size: 1.3rem;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .foot-col{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  
+}
+
+@media (max-width: 450px) {
+  :root {
+    --h1-font: 2rem;
+  }
+  /* html {
+    font-size: 50%;
+  } */
+  .heading span {
+    font-size: 1.5rem;
+  }
+
+  .content-card2 h1 {
+    font-size: 3rem;
+  }
+  .packagi .pack .pack-card {
+    height: 500px;
+    margin-bottom: 2rem;
+  }
+  .savis-card {
+    height: 230px;
+    width: 500px;
+  }
+
+  .contact .row form .inputbox input{
+    width: 100%;
+    
+    }
+
+  .foot-col{
+    width: 100%;
+    
+  }
+}
