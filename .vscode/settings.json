@@ -1,3 +1,4 @@
 {
-  "livePreview.defaultPreviewPath": "/travel.html"
+  "livePreview.defaultPreviewPath": "/savis.html",
+  "liveServer.settings.port": 5501
 }
